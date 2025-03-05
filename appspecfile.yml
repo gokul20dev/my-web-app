@@ -5,6 +5,6 @@ files:
     destination: /var/www/html
 hooks:
   AfterInstall:
-    - location: scripts/start.sh
+    - location: /install
       timeout: 300
       runas: ec2-user
